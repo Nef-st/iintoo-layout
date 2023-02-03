@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Barlow;
+    src: url(https://github.com/jpt/barlow);
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.layout {
+    background-color: #eff6ff;
+    padding: 100px 0;
+}
+.container {
+    background-color: #fff;
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.5);
+}
+.left-side {
+    width: 50%;
+    height: 1000px;
+
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right-side {
+    width: 50%;
+    align-self: center;
+}
+.login__container {
+    width: 80%;
+    margin: auto;
+}
+.login__container > p {
+    margin: 15px 0;
+    opacity: 0.5;
+}
+.login__social {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login__facebook,
+.login__linkedin {
+    display: flex;
+    width: 47%;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+}
+.login__facebook {
+    background-color: #255a9b;
+}
+.login__linkedin {
+    background-color: #0076b6;
+}
+
+.login__facebook > img,
+.login__linkedin > img {
+    width: 20px;
+    height: 20px;
+}
+
+.login__facebook > p,
+.login__linkedin > p {
+    margin: auto;
+}
+.login__lines {
+    display: flex;
+    margin: 0 auto;
+    max-width: 250px;
+    width: 100%;
+}
+.login__lines > .line {
+    position: relative;
+    border-bottom: 1px solid black;
+    margin: 0 10px;
+    top: -0.5em;
+    width: 100px;
+}
+
+.login__contact {
+    display: flex;
+    margin: 40px 0;
+}
+.login__contact > input {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.login__contact > input:focus {
+    border-left: 1px solid skyblue;
+}
