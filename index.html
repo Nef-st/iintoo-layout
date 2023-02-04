@@ -6,36 +6,56 @@
     </head>
     <body>
         <div class="layout">
-            <div class="container">
-                <div class="left-side"></div>
-                <div class="right-side">
-                    <div class="login login__container">
-                        <h2>Get iintoo it today</h2>
-                        <p>There is no charge or obligation upon registration.</p>
-                        <div class="login__social">
-                            <a class="login__facebook" href="#">
+            <div class="layout__container">
+                <div class="banner"></div>
+                <div class="form">
+                    <form class="form__container">
+                        <header class="header">
+                            <h2>Get iintoo it today</h2>
+                            <p>There is no charge or obligation upon registration.</p>
+                        </header>
+                        <div class="network">
+                            <a class="network__facebook network__button" href="#">
                                 <img src="img/facebook.svg" alt="facebook" />
                                 <p>Register with Facebook</p>
                             </a>
-                            <a class="login__linkedin" href="#">
+                            <a class="network__linkedin network__button" href="#">
                                 <img src="img/linkedin.svg" alt="linkedin" />
                                 <p>Register with LinkedIn</p>
                             </a>
                         </div>
-                        <div class="login__lines">
-                            <div class="line"></div>
-                            <p>OR</p>
-                            <div class="line"></div>
+                        <div class="delimiter">
+                            <div class="delimiter__line"></div>
+                            <p class="delimiter__text">OR</p>
+                            <div class="delimiter__line"></div>
                         </div>
 
-                        <div class="login__contact">
-                            <input class="login__email" type="email" />
+                        <div class="contact">
+                            <div class="contact__email contact__container">
+                                <label class="contact__label" for="email" for="tel"
+                                    ><p>Email</p>
+                                </label>
+                                <input class="contact__input" id="email" type="email" />
+                                <div class="contact__border"></div>
+                            </div>
+                            <div class="contact__phone contact__container">
+                                <div class="contact__border"></div>
+                                <label class="contact__label" for="phone" for="tel">
+                                    <p>Phone</p>
+                                </label>
+                                <input class="contact__input" id="phone" type="tel" />
+                                <div class="contact__border"></div>
+                            </div>
                         </div>
-
-                        <div class="login__content"></div>
+                        <div class="questionnaire">
+                            <header class="header">
+                                <h3>What type of investor are you?</h3>
+                                <span>Select the type of investor you are below</span>
+                            </header>
+                        </div>
                         <div class="login__agree"></div>
                         <div class="login__button"></div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
