@@ -39,6 +39,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.banner img {
+    margin: 40px;
+    width: 150px;
+}
 
 /*  Контейнер формы  */
 .form {
