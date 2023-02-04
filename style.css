@@ -16,6 +16,8 @@
 
 /*  Контейнер страницы  */
 .layout {
+    width: 100vw;
+    height: 100vh;
     background-color: #eff6ff;
     padding: 100px 0;
 }
