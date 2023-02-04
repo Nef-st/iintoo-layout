@@ -156,6 +156,7 @@
 }
 .investor-type__choice {
     width: 25%;
+    min-width: 100px;
     display: flex;
     margin: 20px 0;
 }
