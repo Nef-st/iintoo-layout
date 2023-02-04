@@ -1,11 +1,10 @@
-@font-face {
-    font-family: Barlow;
-    src: url(https://github.com/jpt/barlow);
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;800&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
     border: none;
+    font-family: 'Inter', sans-serif;
 }
 
 *,
@@ -80,13 +79,16 @@
     color: #fff;
 }
 .network__button > img {
+    margin: auto 0;
     margin-right: 10px;
     width: 20px;
     height: 20px;
 }
 
 .network__button > p {
+    font-size: 14px;
     margin: auto;
+    padding-right: 10px;
 }
 .network__facebook {
     background-color: #255a9b;
